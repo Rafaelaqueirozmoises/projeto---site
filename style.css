@@ -94,7 +94,10 @@ main a{
 main a:hover{
     text-decoration: underline;
 }
-
+.resp{
+    min-width: 300px;
+    max-width: 1050px;
+}
 img{
     display: block;
     margin: auto
