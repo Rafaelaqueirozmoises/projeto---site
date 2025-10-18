@@ -94,10 +94,15 @@ main a{
 main a:hover{
     text-decoration: underline;
 }
+picture{
+    min-width: 300px;
+    max-width: 1000px;
 
+}
 img{
     display: block;
     margin: auto
+   
 }
 
 h3{font-family: 'Android';
@@ -110,7 +115,8 @@ h4{
     color: rgb(100, 158, 100);
 }
 article{background-color: rgb(158, 236, 193);
-    width: 750px;
+    min-width: 300px;
+    max-width: 1000px;
     margin: auto; 
     border-radius: 10px;
     padding: 10px;
